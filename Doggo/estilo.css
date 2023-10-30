@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top:0px ;
+    left: 900px;
+
+}
+nav#menu li{
+    
+    display: inline-block;
+    background-color: #9c9999;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu h1{
+    display: none;
+}
+
+table{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top:232px ;
+    left: 710px;
+
+
+}
+hgroup table{
+    position: absolute;
+    top:190px ;
+    left: 170px; 
+     background-image:url(1325121.png) ;
+
+}
+
+nav#menu li:hover{
+    
+    background-color:  currentColor
+  
+
+}
+
+header#cabecalho{
+    border-bottom: 1px #606060 solid;
+    background-image:url(ZT6hUs.jpg) ;
+    margin: auto;
+}
+
+hgroup#aven{
+    color:rgb(119, 42, 42);
+    position: absolute;
+    top: 0px;
+    left: 10px; 
+   
+
+}
